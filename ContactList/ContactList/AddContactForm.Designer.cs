@@ -35,6 +35,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtLuu = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -77,18 +79,36 @@
             // 
             // txtLuu
             // 
-            this.txtLuu.Location = new System.Drawing.Point(347, 203);
+            this.txtLuu.Location = new System.Drawing.Point(144, 191);
             this.txtLuu.Name = "txtLuu";
             this.txtLuu.Size = new System.Drawing.Size(75, 23);
             this.txtLuu.TabIndex = 6;
             this.txtLuu.Text = "Lưu";
             this.txtLuu.UseVisualStyleBackColor = true;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(86, 134);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Email";
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(144, 134);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(100, 22);
+            this.txtEmail.TabIndex = 8;
+            // 
             // AddContactForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.txtLuu);
             this.Controls.Add(this.txtSDT);
             this.Controls.Add(this.label2);
@@ -109,5 +129,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.Button txtLuu;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtEmail;
     }
 }
